@@ -3,7 +3,7 @@ import { StyleSheet, Dimensions} from 'react-native';
 const styles = StyleSheet.create ({
     furnitureContainer: {
         width: '100%',
-        height: '100%',
+        height: Dimensions.get('window').height,
       },
     
       titles: {
@@ -27,6 +27,12 @@ const styles = StyleSheet.create ({
         width: '100%',
         resizeMode: 'cover',
         position: 'absolute'
+      },
+
+      buttonContainer: {
+        position: 'absolute',
+        bottom: 50,
+        width: '100%'
       }
 });
 

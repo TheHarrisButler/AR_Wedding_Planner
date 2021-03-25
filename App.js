@@ -1,14 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View} from 'react-native';
-import FurnitureItem from './components/FurnitureItem';
+import FurnitureList from './components/FurnitureList';
+import Header from './components/Header';
 
 export default function App() {
   return (
     <View style={styles.container}>
 
-      <FurnitureItem />
+      <Header />
 
+      <FurnitureList />
+       
       <StatusBar style="auto" />
       
     </View>
