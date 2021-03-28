@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-arwedding-dev-112549-authRole",
+      "UnauthRoleArn": "arn:aws:iam::997494806725:role/amplify-arwedding-dev-112549-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::997494806725:role/amplify-arwedding-dev-112549-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-arwedding-dev-112549-deployment",
+      "UnauthRoleName": "amplify-arwedding-dev-112549-unauthRole",
+      "StackName": "amplify-arwedding-dev-112549",
+      "StackId": "arn:aws:cloudformation:us-east-2:997494806725:stack/amplify-arwedding-dev-112549/426c5970-8fe2-11eb-8239-06f2546a4124",
+      "AmplifyAppId": "d3754833q6c67s"
+    },
+    "categories": {
+      "auth": {
+        "arweddingcc6fe602": {}
+      }
+    }
+  }
+}

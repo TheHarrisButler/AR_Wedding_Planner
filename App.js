@@ -4,6 +4,10 @@ import { StyleSheet, View} from 'react-native';
 import FurnitureList from './components/FurnitureList';
 import Header from './components/Header';
 
+import Amplify from 'aws-amplify'; 
+import config from './src/aws-exports'; 
+Amplify.configure(config); 
+
 export default function App() {
   return (
     <View style={styles.container}>
