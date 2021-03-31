@@ -3,6 +3,7 @@ import {View, Text, ImageBackground} from 'react-native';
 import StyledButton from '../StyledButton'; 
 import styles from './styles.js';  
 
+
 const FurnitureItem = (props) => {
 
     const { name, image } = props.furniture; 

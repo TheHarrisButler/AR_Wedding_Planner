@@ -1,5 +1,5 @@
 export default [{
-    name: 'Cushioined Chair',
+    name: 'Cushioned Chair',
     image: require('../../assets/furniture_1.jpg'),
   }, {
     name: 'Grey Chair',
