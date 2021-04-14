@@ -69,7 +69,7 @@ const styles = StyleSheet.create ({
       },
 
       buttonClose: {
-        backgroundColor: "#2196F3",
+        backgroundColor: "#171A20CC",
       },
 
       textStyle: {
@@ -77,7 +77,7 @@ const styles = StyleSheet.create ({
         fontWeight: "bold",
         textAlign: "center"
       },
-      
+
       modalText: {
         marginBottom: 15,
         textAlign: "center"
