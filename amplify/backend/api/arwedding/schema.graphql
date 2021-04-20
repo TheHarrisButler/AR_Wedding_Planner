@@ -1,0 +1,21 @@
+type Chair @model {
+  id: ID!
+  name: String!
+  image: String!
+  description: String!
+}
+
+type Flower @model {
+  id: ID!
+  name: String!
+  image: String!
+  description: String!
+}
+
+type Table @model {
+  id: ID!
+  name: String!
+  image: String!
+  description: String!
+}
+
